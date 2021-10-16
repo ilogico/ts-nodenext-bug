@@ -1,0 +1,14 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "nodenext",
+    "composite": true,
+
+    "rootDir": "src",
+    "outDir": "obj",
+    "tsBuildInfoFile": "obj/.tsbuildinfo",
+
+    "strict": true
+  }
+}
